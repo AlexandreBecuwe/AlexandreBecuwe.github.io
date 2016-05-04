@@ -1,0 +1,11 @@
+#premier_p{
+background-color:#3498db;
+}
+
+#deuxieme_p{
+background-color:white;
+}
+
+#troisieme_p{
+background-color:#c0392b;
+}
