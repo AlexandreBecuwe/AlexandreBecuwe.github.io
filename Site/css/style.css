@@ -1,3 +1,12 @@
 #header{
     background-color: #d35400;
 }
+
+
+.recherche .bouton{ 
+    background-image: url(images/bouton.png);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+}
