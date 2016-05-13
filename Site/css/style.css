@@ -2,11 +2,14 @@
     background-color: #d35400;
 }
 
+.menu{
+    margin-right:15%; 
+}
 
 .recherche .bouton{ 
-    background-image: url(images/bouton.png);
+    background-image: url(images/bouton.jpg);
     background-repeat: no-repeat;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     padding: 0;
 }
