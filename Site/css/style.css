@@ -9,7 +9,7 @@
 .recherche .bouton{ 
     background-image: url(images/bouton.png);
     background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     padding: 0;
 }
