@@ -9,30 +9,58 @@
         <link rel="icon" href="images/calais.jpg" />
     </head>
     <body>
-        <div class="header">
-            <img src="images/fox.jpg" alt="Calais" height="auto" width="100px"/>
-            <div id="menu">
-                <ul class="menu">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Titre 1</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+        <div class="page">
+            <div class="header">
+                <img src="images/fox.jpg" class="fox" alt="Calais" height="auto" width="100px"/>
+                <div class="supermenu">
+                    <ul class="menu">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Titre 1</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li>
+                            <form action="" class="recherche">
+                                <input type="search" placeholder="Recherche">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <form action="" class="recherche">
-                <input type="text" value="Recherche">
-                <input class="bouton" type="button" value=" " />
-            </form>
-        </div>
-        <div classe
-        <form>
-            Nom <input type="text" name="nom"><br/>
-            Date de naissance <input type="date" name="anniversaire"><br/>
-            Age <input type="number" name="age"><br/>
-            Facebook <input type="url" value="http://" name="website"><br/>
-            E-mail <input type="email" name="user_email"><br/>
-            telephone <input type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$"><br/>
-            <input type="submit" value="Envoyer">
-        </form>
+            <div class="baniere">
+                <img src="images/banniere.jpg" alt="Calais" height="auto" width="90%" />
+            </div>
+            <div class="content">
+                <h1>Je suis un titre</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac turpis sed tortor ullamcorper euismod. Curabitur sagittis odio in ex luctus facilisis ut sed diam. Donec nibh justo, sagittis ut nunc fringilla, vestibulum rhoncus erat. Aliquam eget venenatis urna. Vivamus id malesuada sapien, volutpat hendrerit leo. Curabitur volutpat varius velit, in semper massa congue nec. Pellentesque augue lacus, gravida nec suscipit a, bibendum quis sapien. Pellentesque maximus porttitor metus, et dapibus sapien suscipit eu. Curabitur eros leo, tempus in eros id, dapibus imperdiet turpis. </p>
+                <div id="menu-outer">
+                    <table>
+                    <tr><td><img src="images/renard1.jpg" alt="Calais" /></td><td><img src="images/renard1.jpg" alt="Calais" /></td><td><img src="images/renard1.jpg" alt="Calais" /></td><td><img src="images/renard1.jpg" alt="Calais" /></td></tr>
+                    <tr><td><h3>Renard1</h3></td><td><h3>Renard2</h3></td><td><h3>Renard3</h3></td><td><h3>Renard4</h3></td></tr>
+                    <tr><td><h4>Je suis un renard</h4></td><td><h4>Je suis un renard</h4></td><td><h4>Je suis un renard</h4></td><td><h4>Je suis un renard</h4></td></tr>   
+                    </table>
+                </div>
+                <div class="sousmenu">
+                    <div class="carte">
+                        <h2>Carte</h2>
+                        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									google maps carte							</a></small></div><div><small><a href="https://youtubeembedcode.com">youtubeembedcode.com</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(50.9492365,1.8853618000000552),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.9492365,1.8853618000000552)});infowindow = new google.maps.InfoWindow({content:'<strong>IUT de Calais</strong><br>Rue Louis David, 62100 Calais Calais<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    </div>
+                    <div class="formulaire">
+                        <h2>Formulaire</h2>
+                        <form>
+                            <input type="text" name="nom" placeholder="Nom">
+                            <input type="text" name="prenom" placeholder="Prenom"><br/>
+                            <input type="date" name="anniversaire">
+                            <input type="text" name="ville" placeholder="ville de naissance"><br/>
+                            <input type="email" name="user_email" placeholder="E-mail"><br/>
+                            <input type="file" name="myImage"/><br/>
+                            <textarea class="Data"  placeholder="Message"></textarea>
+                            <input type="submit" value="Envoyer">
+                        </form>  
+                    </div>
+                </div>
+           </div>
+           <div class="footer">
+                    <p>Bécuwe Alexandre groupe:PEL</p>
+           </div>
         </div>
     </body>
 </html>
